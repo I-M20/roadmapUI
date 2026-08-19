@@ -1,0 +1,69 @@
+#submitbtn{
+    background: rgb(5, 6, 7);
+    color: white;
+    text-decoration: underline;
+    height:40px;
+    border:#14e4ff 2px solid;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    border:black 2px solid;
+    border-radius: 10px;
+    height:550px;
+    width:50%;
+    align-content: center;
+    position: fixed;
+    justify-items: center;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding:3%;
+    background:linear-gradient(135deg, rgb(78, 137, 214) 0%, rgb(124, 93, 237) 100%)
+
+    
+}
+body{font-weight:bolder;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    transition: outline-offset 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    background-color:white;
+}
+label{color:white}
+button{
+    width: 130px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+#submitbtn{
+    text-decoration: none;
+}
+input:focus-visible{
+    outline:2px solid #0056b3;
+    outline-offset: 2px;
+    border-color:#0056b3;
+    box-shadow: 0 0 0 8px rgba(79, 70, 229, 0.15),0 6px 10px rgba(79, 70, 229, 0.05);
+}
+
+.error-message{min-height: 1.25rem; margin-top: 0.25rem;}
+#pass1, #pass2{
+    display: flex;
+    flex-direction: column;
+    input{
+        width: 110%;
+    }
+    button{
+        position: relative;
+        left: 115px;
+        bottom:35%;
+        width:80px
+    }
+    #showbtn2{
+        bottom:53%;
+    }
+}
